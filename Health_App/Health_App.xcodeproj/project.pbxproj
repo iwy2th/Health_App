@@ -9,24 +9,32 @@
 /* Begin PBXBuildFile section */
 		720F92822A10F5B400A70AA6 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F92812A10F5B400A70AA6 /* ExerciseView.swift */; };
 		720F92842A113C6900A70AA6 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F92832A113C6900A70AA6 /* WelcomeView.swift */; };
-		720F92892A11405300A70AA6 /* Videos in Resources */ = {isa = PBXBuildFile; fileRef = 720F92882A11405300A70AA6 /* Videos */; };
 		720F928B2A1145AB00A70AA6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F928A2A1145AB00A70AA6 /* HeaderView.swift */; };
 		727A9E392A10EDA70048FC04 /* Health_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727A9E382A10EDA70048FC04 /* Health_AppApp.swift */; };
 		727A9E3B2A10EDA70048FC04 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727A9E3A2A10EDA70048FC04 /* ContentView.swift */; };
 		727A9E3D2A10EDA80048FC04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727A9E3C2A10EDA80048FC04 /* Assets.xcassets */; };
 		727A9E402A10EDA80048FC04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 727A9E3F2A10EDA80048FC04 /* Preview Assets.xcassets */; };
+		72CB59272A1150CD00052592 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 72CB59232A1150CC00052592 /* squat.mp4 */; };
+		72CB59282A1150CD00052592 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 72CB59242A1150CC00052592 /* burpee.mp4 */; };
+		72CB59292A1150CD00052592 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 72CB59252A1150CD00052592 /* step-up.mp4 */; };
+		72CB592A2A1150CD00052592 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 72CB59262A1150CD00052592 /* sun-salute.mp4 */; };
+		72CB592D2A1153C800052592 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CB592C2A1153C800052592 /* RatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		720F92812A10F5B400A70AA6 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
 		720F92832A113C6900A70AA6 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		720F92882A11405300A70AA6 /* Videos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Videos; sourceTree = "<group>"; };
 		720F928A2A1145AB00A70AA6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		727A9E352A10EDA70048FC04 /* Health_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		727A9E382A10EDA70048FC04 /* Health_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_AppApp.swift; sourceTree = "<group>"; };
 		727A9E3A2A10EDA70048FC04 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		727A9E3C2A10EDA80048FC04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		727A9E3F2A10EDA80048FC04 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		72CB59232A1150CC00052592 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
+		72CB59242A1150CC00052592 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
+		72CB59252A1150CD00052592 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
+		72CB59262A1150CD00052592 /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
+		72CB592C2A1153C800052592 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			children = (
 				727A9E3A2A10EDA70048FC04 /* ContentView.swift */,
 				720F92812A10F5B400A70AA6 /* ExerciseView.swift */,
+				72CB592C2A1153C800052592 /* RatingView.swift */,
 				720F928A2A1145AB00A70AA6 /* HeaderView.swift */,
 				720F92832A113C6900A70AA6 /* WelcomeView.swift */,
 			);
@@ -55,7 +64,6 @@
 			isa = PBXGroup;
 			children = (
 				727A9E372A10EDA70048FC04 /* Health_App */,
-				720F92882A11405300A70AA6 /* Videos */,
 				727A9E362A10EDA70048FC04 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +83,7 @@
 				720F92852A113CC000A70AA6 /* Views */,
 				727A9E3C2A10EDA80048FC04 /* Assets.xcassets */,
 				727A9E3E2A10EDA80048FC04 /* Preview Content */,
+				72CB592B2A1150D800052592 /* Videoss */,
 			);
 			path = Health_App;
 			sourceTree = "<group>";
@@ -85,6 +94,17 @@
 				727A9E3F2A10EDA80048FC04 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		72CB592B2A1150D800052592 /* Videoss */ = {
+			isa = PBXGroup;
+			children = (
+				72CB59242A1150CC00052592 /* burpee.mp4 */,
+				72CB59232A1150CC00052592 /* squat.mp4 */,
+				72CB59252A1150CD00052592 /* step-up.mp4 */,
+				72CB59262A1150CD00052592 /* sun-salute.mp4 */,
+			);
+			path = Videoss;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +165,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				720F92892A11405300A70AA6 /* Videos in Resources */,
+				72CB592A2A1150CD00052592 /* sun-salute.mp4 in Resources */,
+				72CB59282A1150CD00052592 /* burpee.mp4 in Resources */,
+				72CB59292A1150CD00052592 /* step-up.mp4 in Resources */,
 				727A9E402A10EDA80048FC04 /* Preview Assets.xcassets in Resources */,
+				72CB59272A1150CD00052592 /* squat.mp4 in Resources */,
 				727A9E3D2A10EDA80048FC04 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,6 +184,7 @@
 				720F928B2A1145AB00A70AA6 /* HeaderView.swift in Sources */,
 				720F92822A10F5B400A70AA6 /* ExerciseView.swift in Sources */,
 				727A9E3B2A10EDA70048FC04 /* ContentView.swift in Sources */,
+				72CB592D2A1153C800052592 /* RatingView.swift in Sources */,
 				727A9E392A10EDA70048FC04 /* Health_AppApp.swift in Sources */,
 				720F92842A113C6900A70AA6 /* WelcomeView.swift in Sources */,
 			);

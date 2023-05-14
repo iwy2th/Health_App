@@ -1,10 +1,6 @@
-//
-//  Health_AppApp.swift
-//  Health_App
-//
-//  Created by Iwy2th on 14/05/2023.
-//
-
+/**
+Giao thức App yêu cầu mộ thuộc tính được tính toán có tên body và trả về Scene . Và Scene là chết độ xem gốc rootView của hệ thống phân cấp
+ **/
 import SwiftUI
 
 @main

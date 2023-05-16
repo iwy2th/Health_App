@@ -1,33 +1,32 @@
-//
-//  HistoryView.swift
-//  Health_App
-//
-//  Created by Iwy2th on 15/05/2023.
-//
-
+// DateFormatter "yyyy-MM-dd HH:mm:ss" "2023 05 15 16:30:00"
 import SwiftUI
 
 struct HistoryView: View {
-  let today = Date()
-  let yesterday = Date().addingTimeInterval(-86400)
-  let exercise1 = ["Squat", "Step Up", "Burpee", "Sun Salute"]
-  let exercise2 = ["Squat", "Step Up", "Burpee"]
+  let history = HistoryStore()
   var body: some View {
-    VStack {
-      Text("History")
-        .font(.title)
-        .padding()
-      Form {
-        Section(header: Text(today.formatted(as: "MMM dd"))
-          .font(.headline)){
-            
-          }
-        Section(header: Text(yesterday.formatted(as: "MMM dd"))
-          .font(.headline)){
-
-          }
+    ZStack (alignment: .topTrailing){
+      Button(action: {}) {
+        Image(systemName: "xmark.circle")
       }
-
+      .font(.title)
+      .padding(.trailing)
+      VStack {
+        Text(NSLocalizedString("History", comment: "view user activity"))
+          .font(.title)
+          .padding()
+        Form {
+          ForEach(history.exerciseDays) {
+            day in
+            Section(header: Text(day.date.formatted(as: "MMM d"))
+              .font(.headline)) {
+                ForEach(day.exercises, id: \.self) {
+                  exercise in
+                  Text(exercise)
+                }
+              }
+          }
+        }
+      }
     }
   }
 }
